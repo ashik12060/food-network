@@ -1,16 +1,26 @@
+html{
+    box-sizing:border-box; ;
+}
 body{
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0;
+    padding: 0;
 }
 .container{
     display:flex;
-    padding-bottom: 140px;
+}
+#padding{
+    padding-bottom:260px;
+    padding-left:15px;
 }
 h2{
     font-size:40px;
 }
 .separate-width{
     width:50%;
+}
+.separate-width img{
+    padding-top:50px;
 }
 .orange-color{
     color:orange;
@@ -29,13 +39,20 @@ h2{
     margin-left: 80px;
 }
 .bg-image{
-    background-image:url(./images/./7.png);
-    
+    background-image:url(./images/./7.png);   
 }
 .bg-image img{
-    width:250px;
-    padding:30px 0px 0px 60px;
+    margin-bottom:0;
+    
 }
 .separate-width h3{
     padding-top: 70px;
 }
+#recipe-postion{
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:10%
+}
+
+/* 4th */
